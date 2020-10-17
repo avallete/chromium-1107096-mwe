@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shadow DOM Fixture</title>
+</head>
+<body>
+<div id="host"></div>
+<script>
+    document
+        .getElementById('host')
+        .attachShadow({mode: 'open'})
+        .innerHTML = `
+        <style>
+            .shadow-button {
+                height: 100px;
+                width: 100px;
+                background-color: blue;
+            }
+
+            .shadow-button:hover {
+                background-color: red;
+            }
+        </style>
+        <div id="hoverme" class="shadow-button">SHADOW DOM</div>
+    `;
+</script>
+</body>
+</html>

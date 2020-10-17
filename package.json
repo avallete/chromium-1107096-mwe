@@ -1,0 +1,22 @@
+{
+  "name": "chromium-1107096-mwe",
+  "version": "1.0.0",
+  "description": "A MWE to demonstrate the problem on this issue:https://bugs.chromium.org/p/chromium/issues/detail?id=1107096",
+  "main": "index.js",
+  "scripts": {
+    "test": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/avallete/chromium-1107096-mwe.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/avallete/chromium-1107096-mwe/issues"
+  },
+  "homepage": "https://github.com/avallete/chromium-1107096-mwe#readme",
+  "dependencies": {
+    "puppeteer": "^5.3.1"
+  }
+}
