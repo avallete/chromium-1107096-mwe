@@ -8,4 +8,4 @@ git clone git@github.com:avallete/chromium-1107096-mwe.git
 cd chromium-1107096-mwe/
 npm install
 node run test
-```.
+```
